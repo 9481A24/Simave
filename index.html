@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>Prova SIMAVE – 84 Questões</title>
+    <script src="gabarito.js"></script>
+</head>
+<body>
+    <h1>Prova SIMAVE – 84 Questões</h1>
+
+    <p>Responda as questões marcando A, B, C ou D:</p>
+
+    <!-- Aqui entram as 84 questões que já coloquei no canvas -->
+    <!-- Você só precisa copiar exatamente como está no canvas -->
+
+    <button onclick="verificar()">Verificar Gabarito</button>
+
+    <p id="resultado"></p>
+
+    <script>
+        function verificar() {
+            let total = 0;
+
+            for (let i = 1; i <= 84; i++) {
+                let marcada = document.querySelector(`input[name='q${i}']:checked`);
+                if (marcada && marcada.value === GABARITO[i]) {
+                    total++;
+                }
+            }
+
+            document.getElementById("resultado").innerText =
+                "Você acertou " + total + " de 84 questões.";
+        }
+    </script>
+</body>
+</html>
