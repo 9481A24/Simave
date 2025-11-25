@@ -2,56 +2,107 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8" />
-    <title>Prova SIMAVE – 84 Questões</title>
-
-    <style>
-        body { font-family: Arial; padding: 20px; line-height: 1.5; }
-        h1 { color: #004AAD; }
-        .questao { margin-bottom: 18px; padding: 10px; border: 1px solid #ddd; border-radius: 8px; }
-    </style>
-
-    <script>
-        const GABARITO = {
-            1:"B",2:"B",3:"C",4:"C",5:"C",6:"A",7:"C",8:"B",9:"A",10:"B",
-            11:"B",12:"C",13:"B",14:"C",15:"C",16:"B",17:"B",18:"A",19:"B",20:"C",
-            21:"B",22:"C",23:"C",24:"C",25:"C",26:"B",27:"A",28:"A",29:"B",30:"C",
-            31:"C",32:"A",33:"B",34:"A",35:"B",36:"A",37:"B",38:"A",39:"C",40:"B",
-            41:"C",42:"B",
-            43:"C",44:"A",45:"B",46:"C",47:"C",48:"A",49:"B",50:"C",51:"C",52:"C",
-            53:"B",54:"C",55:"B",56:"B",57:"C",58:"C",59:"B",60:"B",61:"B",62:"C",
-            63:"C",64:"B",65:"C",66:"B",67:"C",68:"B",69:"C",70:"C",71:"B",72:"C",
-            73:"D",74:"C",75:"B",76:"B",77:"B",78:"C",79:"C",80:"C",81:"A",82:"A",
-            83:"C",84:"C"
-        };
-
-        function verificar() {
-            let total = 0;
-
-            for (let i = 1; i <= 84; i++) {
-                let m = document.querySelector(`input[name='q${i}']:checked`);
-                if (m && m.value === GABARITO[i]) total++;
-            }
-
-            document.getElementById("resultado").innerHTML =
-                "<h2>Você acertou <b>" + total + "</b> de 84 questões.</h2>";
-        }
-    </script>
+<meta charset="UTF-8">
+<title>Simave MG – Prova Completa</title>
+<style>
+    body { font-family: Arial; padding: 20px; }
+    h2 { margin-top: 40px; }
+    .questao { margin-bottom: 20px; }
+</style>
 </head>
-
 <body>
 
-    <h1>PROVA SIMAVE – 84 QUESTÕES</h1>
-    <p>Marque A, B, C ou D em cada questão.</p>
+<h1>Simave MG – Prova para Estudo</h1>
 
-    <!-- ⚠️ AQUI vão as 84 questões que já estão no seu canvas -->
-    <!-- Só copie e cole as questões exatamente como estão -->
+<h2>Matemática – 42 Questões</h2>
 
-    <button onclick="verificar()" style="padding:12px 20px; font-size:18px; margin-top:20px;">
-        Verificar Gabarito
-    </button>
+<div class="questao">1) João tinha 15 balas e ganhou mais 8. Com quantas ficou?</div>
+<div class="questao">2) Resolva: 45 ÷ 5 = ?</div>
+<div class="questao">3) A metade de 180 é:</div>
+<div class="questao">4) 9 × 7 = ?</div>
+<div class="questao">5) Uma caixa tem 36 lápis. Se tirar 12, quantos restam?</div>
+<div class="questao">6) Qual é o sucessor de 999?</div>
+<div class="questao">7) 250 + 340 = ?</div>
+<div class="questao">8) 1/2 é igual a quantos décimos?</div>
+<div class="questao">9) Quanto é 12 × 12?</div>
+<div class="questao">10) Pedro correu 3 km e Ana correu 2 km. Quantos km no total?</div>
+<div class="questao">11) 90 − 47 = ?</div>
+<div class="questao">12) 7/10 escrito como número decimal é:</div>
+<div class="questao">13) 120 ÷ 3 = ?</div>
+<div class="questao">14) Qual número é menor: 0,45 ou 0,54?</div>
+<div class="questao">15) Quanto é 15% de 200?</div>
+<div class="questao">16) Uma pizza tem 8 pedaços, e João comeu 3. Qual fração?</div>
+<div class="questao">17) 14 × 5 = ?</div>
+<div class="questao">18) 3000 − 2750 = ?</div>
+<div class="questao">19) 2/4 é equivalente a:</div>
+<div class="questao">20) Quantos segundos tem 5 minutos?</div>
+<div class="questao">21) 0,8 + 0,5 = ?</div>
+<div class="questao">22) O triplo de 27 é:</div>
+<div class="questao">23) 4² = ?</div>
+<div class="questao">24) 500 dividido por 100 é:</div>
+<div class="questao">25) 18 × 6 = ?</div>
+<div class="questao">26) A terça parte de 90 é:</div>
+<div class="questao">27) Qual número completa: 3, 6, 9, ___?</div>
+<div class="questao">28) Área de um quadrado de lado 5 m?</div>
+<div class="questao">29) 72 ÷ 9 = ?</div>
+<div class="questao">30) 2,5 + 1,75 = ?</div>
+<div class="questao">31) Qual é o antecessor de 10.000?</div>
+<div class="questao">32) 3/5 de 100 é:</div>
+<div class="questao">33) 19 + 28 = ?</div>
+<div class="questao">34) 450 − 199 = ?</div>
+<div class="questao">35) A soma de ângulos de um triângulo é:</div>
+<div class="questao">36) 4 × 0,25 = ?</div>
+<div class="questao">37) 81 é quadrado de qual número?</div>
+<div class="questao">38) 15 × 4 = ?</div>
+<div class="questao">39) 1 hora tem quantos minutos?</div>
+<div class="questao">40) 0,9 − 0,4 = ?</div>
+<div class="questao">41) Metade de 64 é:</div>
+<div class="questao">42) 125 + 375 = ?</div>
 
-    <p id="resultado"></p>
+<h2>Português – 42 Questões</h2>
+
+<div class="questao">1) Leia: "O menino correu rápido." Qual é o verbo?</div>
+<div class="questao">2) Qual é o plural de "flor"?</div>
+<div class="questao">3) Sinônimo de "feliz":</div>
+<div class="questao">4) Antônimo de "alto":</div>
+<div class="questao">5) Qual frase está escrita corretamente?</div>
+<div class="questao">6) "Casa" tem quantas sílabas?</div>
+<div class="questao">7) O que é sujeito na frase?</div>
+<div class="questao">8) "A mesa é grande." Qual é o adjetivo?</div>
+<div class="questao">9) Complete com porquê/porque/por que/porquê.</div>
+<div class="questao">10) Verbos no passado são chamados de:</div>
+<div class="questao">11) Aumentativo de "cão":</div>
+<div class="questao">12) Qual é a forma correta: traz / trás?</div>
+<div class="questao">13) O que é gênero textual?</div>
+<div class="questao">14) "Menina" é substantivo:</div>
+<div class="questao">15) Encontre o adverbio: “Ele saiu cedo.”</div>
+<div class="questao">16) Plural de "pão".</div>
+<div class="questao">17) Complete: A ____ está azul.</div>
+<div class="questao">18) Identifique o predicado.</div>
+<div class="questao">19) "Coragem" é abstrato ou concreto?</div>
+<div class="questao">20) Complete com "há" ou "a".</div>
+<div class="questao">21) Antônimo de "triste".</div>
+<div class="questao">22) Sinônimo de "andar".</div>
+<div class="questao">23) O que é verbo?</div>
+<div class="questao">24) A palavra "avião" é oxítona?</div>
+<div class="questao">25) Substantivo coletivo de "peixe".</div>
+<div class="questao">26) "Aquelas" é pronome?</div>
+<div class="questao">27) Complete com "mas" ou "mais".</div>
+<div class="questao">28) Identifique a frase interrogativa.</div>
+<div class="questao">29) O que é vocativo?</div>
+<div class="questao">30) O que é paráfrase?</div>
+<div class="questao">31) Palavra derivada de "mar".</div>
+<div class="questao">32) Qual é o diminutivo de "casa"?</div>
+<div class="questao">33) Qual frase tem sentido figurado?</div>
+<div class="questao">34) Complete: Ele ____ viu.</div>
+<div class="questao">35) O plural de azul é:</div>
+<div class="questao">36) Indique a oração coordenada.</div>
+<div class="questao">37) O que é artigo?</div>
+<div class="questao">38) Palavra com dígrafo.</div>
+<div class="questao">39) Encontre o sujeito oculto.</div>
+<div class="questao">40) O que é crase?</div>
+<div class="questao">41) Complete com "mal" ou "mau".</div>
+<div class="questao">42) Antônimo de "rápido".</div>
 
 </body>
 </html>
